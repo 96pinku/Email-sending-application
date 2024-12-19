@@ -16,7 +16,7 @@ function Contact() {
         return;
       }
       try{
-        const response=axios.post('https://nodemailer-f7kh.onrender.com/contact', {
+        const response=axios.post('https://email-sending-application-iern.onrender.com//contact', {
           name,
           email,
           message
